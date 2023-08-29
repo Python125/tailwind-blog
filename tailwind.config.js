@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        peach: "#EFDEA6"
-      }
+        red: "#df280f",
+      },
     },
   },
   plugins: [],
