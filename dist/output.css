@@ -534,7 +534,17 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-peach {
+.bg-blue-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(239 222 166 / var(--tw-bg-opacity));
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-gold {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 203 33 / var(--tw-bg-opacity));
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
