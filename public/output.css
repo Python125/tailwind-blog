@@ -534,9 +534,29 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-red {
-  --tw-bg-opacity: 1;
-  background-color: rgb(223 40 15 / var(--tw-bg-opacity));
+.m-2 {
+  margin: 0.5rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.bg-image {
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-4xl {
@@ -544,14 +564,8 @@ video {
   line-height: 2.5rem;
 }
 
-.text-yellow-500 {
-  --tw-text-opacity: 1;
-  color: rgb(234 179 8 / var(--tw-text-opacity));
-}
-
-.text-yellow-300 {
-  --tw-text-opacity: 1;
-  color: rgb(253 224 71 / var(--tw-text-opacity));
+.font-bold {
+  font-weight: 700;
 }
 
 .text-amber-300 {
